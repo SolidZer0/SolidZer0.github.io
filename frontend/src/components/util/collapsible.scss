@@ -1,0 +1,10 @@
+.collapsible {
+    display: grid;
+    height: auto;
+    // transition: 350ms all;
+    transition: all 350ms ease-out;
+  }
+  .collapsible-hidden {
+    transition: 350ms all;
+    overflow: hidden ;
+  }
